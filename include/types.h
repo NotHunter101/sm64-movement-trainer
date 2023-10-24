@@ -268,6 +268,7 @@ struct MarioState {
     /*0x26*/ s16 invincTimer;
     /*0x28*/ u8 framesSinceA;
     /*0x29*/ u8 framesSinceB;
+             u8 framesSinceLanding;
     /*0x2A*/ u8 wallKickTimer;
     /*0x2B*/ u8 doubleJumpTimer;
     /*0x2C*/ Vec3s faceAngle;
