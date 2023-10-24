@@ -1411,6 +1411,8 @@ void update_mario_inputs(struct MarioState *m) {
     if (m->doubleJumpTimer > 0) {
         m->doubleJumpTimer--;
     }
+
+    m->framesSinceLanding++;
 }
 
 /**
